@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_product">
+    <fragment
+        android:id="@+id/nav_animals"
+        android:name="com.example.firebases9.ui.fragments.AnimalsFragment"
+        android:label="fragment_animals"
+        tools:layout="@layout/fragment_animals" />
+    <fragment
+        android:id="@+id/nav_product"
+        android:name="com.example.firebases9.ui.fragments.ProductFragment"
+        android:label="fragment_product"
+        tools:layout="@layout/fragment_product" />
+    <fragment
+        android:id="@+id/nav_register"
+        android:name="com.example.firebases9.ui.fragments.RegisterFragment"
+        android:label="fragment_register"
+        tools:layout="@layout/fragment_register" />
+</navigation>
